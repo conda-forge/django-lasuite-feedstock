@@ -7,7 +7,14 @@ Home: https://github.com/suitenumerique/django-lasuite
 
 Package license: MIT
 
-Summary: Django La Suite - A Django library
+Summary: Common Django library for La Suite numérique projects
+
+Development: https://github.com/suitenumerique/django-lasuite
+
+django-lasuite is the common Django library shared across La Suite
+numérique (French government's open-source digital suite). It bundles
+OIDC integration, DRF helpers, malware-detection utilities, and admin
+customizations used by docs, meet, drive, messages, calc, and others.
 
 Current build status
 ====================
@@ -16,7 +23,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/django-lasuite-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/django-lasuite-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
