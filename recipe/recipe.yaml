@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.28"
+  version: "0.0.29"
 
 package:
   name: django-lasuite
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/django-lasuite/django_lasuite-${{ version }}.tar.gz
-  sha256: 1c0cf66aa32a22e78ba0ad70d73884796e32e0ba602e9e0339a136de83dcb603
+  sha256: 831cb859e45e33963c9d89168c2de14f9844e805000b0f0d1512ffd0b9731a39
 
 build:
   number: 0
