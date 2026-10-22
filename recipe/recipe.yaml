@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.31"
+  version: 0.1.0
 
 package:
   name: django-lasuite
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/django-lasuite/django_lasuite-${{ version }}.tar.gz
-  sha256: 7eb9b499f4d51fcf207019d11fef357a8a123fa8d25eeb0229c0cb7121cf2962
+  sha256: 057366ff1ff9536910b99219edd0de1e63e8a8a892f4af4bc5d816096747c03c
 
 build:
   number: 0
@@ -28,10 +28,9 @@ requirements:
     - djangorestframework >=3.15.2
     - joserfc >=1.4.0
     - mozilla-django-oidc >=4.0.1
-    - pyjwt >=2.8.0
+    - pyjwt >=2.9.0
     - requests-toolbelt >=1.0.0
     - requests >=2.32.3
-
 tests:
   - python:
       imports:
@@ -39,7 +38,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
 
 about:
   homepage: https://github.com/suitenumerique/django-lasuite
