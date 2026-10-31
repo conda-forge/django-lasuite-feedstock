@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.1.0
+  version: 1.0.0
 
 package:
   name: django-lasuite
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/django-lasuite/django_lasuite-${{ version }}.tar.gz
-  sha256: 057366ff1ff9536910b99219edd0de1e63e8a8a892f4af4bc5d816096747c03c
+  sha256: 8921aaba5a78f1f9728cee2cc4596755478108f17146d4a2fccb393c043a05a3
 
 build:
   number: 0
@@ -24,13 +24,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
-    - django >=5.0
-    - djangorestframework >=3.15.2
-    - joserfc >=1.4.0
-    - mozilla-django-oidc >=4.0.1
-    - pyjwt >=2.9.0
-    - requests-toolbelt >=1.0.0
-    - requests >=2.32.3
+    - django >=5.2
 tests:
   - python:
       imports:
